@@ -1,1 +1,26 @@
-
+{
+  "name": "Node.js Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:14",
+  "forwardPorts": [
+    3000,
+    8545
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+        },
+        "javascript.validate.enable": false
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "oderwat.indent-rainbow"
+      ]
+    }
+  },
+  "postCreateCommand": "yarn install --frozen-lockfile --ignore-engines"
+}
