@@ -2,10 +2,9 @@
   "name": "nodechain",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
   "dependencies": {
-    "@material-ui/core-4.11.2": "github:mui/material-ui#4.11.2",
-    "@material-ui/icons-4.11.2": "github:mui/icons-material#4.11.2",
+    "@material-ui/core": "npm:@material-ui/core@4.11.2",
+    "@material-ui/icons": "npm:@material-ui/icons@4.11.2",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
@@ -15,6 +14,7 @@
     "bip39": "npm:bip39@3.1.0",
     "burner-provider": "npm:burner-provider@1.0.38",
     "chart.js": "npm:chart.js@4.4.3",
+    "concat-stream": "npm:concat-stream@2.0.0",
     "eth-lib": "npm:eth-lib@0.2.8",
     "eth-sig-util": "npm:eth-sig-util@3.0.1",
     "ethashjs": "npm:ethashjs@0.0.8",
@@ -63,20 +63,20 @@
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
-    "start": "npx run preinstall && pnpm install --no-optional --force && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
   "devDependencies": {
     "@craco/craco": "npm:@craco/craco@7.1.0",
-    "concat-stream": "github:max-mapper/concat-stream#feat/smaller"
+    "concat-stream": "npm:concat-stream@2.0.0"
   },
   "resolutions": {
     "@clarkmcc/ngraph": "npm:@clarkmcc/ngraph@latest",
     "@craco/craco": "npm:@craco/craco@7.1.0",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
-    "@material-ui/core": "github:mui/material-ui#4.11.2",
-    "@material-ui/icons": "github:mui/icons-material#4.11.2",
+    "@material-ui/core": "npm:@material-ui/core@4.11.2",
+    "@material-ui/icons": "npm:@material-ui/icons@4.11.2",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
     "@walletconnect/web3-provider": "npm:@walletconnect/web3-provider@1.8.0",
@@ -86,7 +86,7 @@
     "bip39": "npm:bip39@3.1.0",
     "burner-provider": "npm:burner-provider@1.0.38",
     "chart.js": "npm:chart.js@4.4.3",
-    "concat-stream": "github:max-mapper/concat-stream#feat/smaller",
+    "concat-stream": "npm:concat-stream@2.0.0",
     "eth-lib": "npm:eth-lib@0.2.8",
     "eth-sig-util": "npm:eth-sig-util@3.0.1",
     "ethashjs": "npm:ethashjs@0.0.8",
