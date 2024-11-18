@@ -3,8 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "npm:@material-ui/core@4.11.2",
-    "@material-ui/icons": "npm:@material-ui/icons@4.11.2",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
@@ -14,7 +12,6 @@
     "bip39": "npm:bip39@3.1.0",
     "burner-provider": "npm:burner-provider@1.0.38",
     "chart.js": "npm:chart.js@4.4.3",
-    "concat-stream": "npm:concat-stream@2.0.0",
     "eth-lib": "npm:eth-lib@0.2.8",
     "eth-sig-util": "npm:eth-sig-util@3.0.1",
     "ethashjs": "npm:ethashjs@0.0.8",
@@ -31,7 +28,6 @@
     "litegraph.js": "npm:litegraph.js@0.7.18",
     "memdown": "npm:memdown@6.1.1",
     "moment": "npm:moment@2.30.1",
-    "npm-force-resolutions": "npm:npm-force-resolutions@0.0.10",
     "polished": "npm:polished@4.3.1",
     "react": "npm:react@17.0.0",
     "react-ace": "npm:react-ace@12.0.0",
@@ -58,29 +54,24 @@
     "web3-provider-engine": "npm:web3-provider-engine@17.0.1",
     "web3-utils": "npm:web3-utils@1.0.0-beta.55",
     "web3modal": "npm:web3modal@1.9.12",
-    "webpack": "npm:webpack@4.37.0",
+    "webpack": "4.37.0",
     "websocket": "npm:websocket@1.0.35"
   },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
   "devDependencies": {
-    "@craco/craco": "npm:@craco/craco@7.1.0",
     "concat-stream": "npm:concat-stream@2.0.0"
   },
   "resolutions": {
     "@clarkmcc/ngraph": "npm:@clarkmcc/ngraph@latest",
-    "@craco/craco": "npm:@craco/craco@7.1.0",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
-    "@material-ui/core": "npm:@material-ui/core@4.11.2",
-    "@material-ui/icons": "npm:@material-ui/icons@4.11.2",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
     "@walletconnect/web3-provider": "npm:@walletconnect/web3-provider@1.8.0",
-    "@xyflow/react": "npm:@xyflow/react@latest" ,
+    "@xyflow/react": "npm:@xyflow/react@latest",
     "ace-builds": "npm:ace-builds@1.35.4",
     "base64url": "npm:base64url@3.0.1",
     "bip39": "npm:bip39@3.1.0",
@@ -103,7 +94,6 @@
     "litegraph.js": "npm:litegraph.js@0.7.18",
     "memdown": "npm:memdown@6.1.1",
     "moment": "npm:moment@2.30.1",
-    "npm-force-resolutions": "npm:npm-force-resolutions@0.0.10",
     "polished": "npm:polished@4.3.1",
     "react": "npm:react@16.9.0",
     "react-ace": "npm:react-ace@12.0.0",
@@ -132,7 +122,7 @@
     "web3modal": "npm:web3modal@1.9.12",
     "webpack": "npm:webpack@4.37.0",
     "websocket": "npm:websocket@1.0.35"
-    },
+  },
   "browserslist": {
     "production": [
       ">0.2%",
