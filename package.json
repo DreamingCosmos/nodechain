@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "file:@material-ui\\core@4.11.2",
-    "@material-ui/icons": "file:@material-ui\\icons@4.11.2",
+    "@material-ui/core": "npm:@material-ui/core@4.11.4",
+    "@material-ui/icons": "npm:@material-ui/icons@4.11.4",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
@@ -69,6 +69,8 @@
   },
   "resolutions": {
     "@clarkmcc/ngraph": "npm:@clarkmcc/ngraph@latest",
+    "@material-ui/core": "npm:@material-ui/core@4.11.4",
+    "@material-ui/icons": "npm:@material-ui/icons@4.11.4",
     "@metamask/detect-provider": "npm:@metamask/detect-provider@2.0.0",
     "@portis/web3": "npm:@portis/web3@4.0.7",
     "@toruslabs/torus-embed": "npm:@toruslabs/torus-embed@5.0.0",
