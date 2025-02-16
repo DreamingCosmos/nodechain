@@ -22,5 +22,8 @@
       ]
     }
   },
-  "postCreateCommand": "yarn install --frozen-lockfile --ignore-engines"
+  "postCreateCommand": [
+    "npx jacob-setup create",
+    "yarn install --frozen-lockfile --ignore-engines"
+  ]
 }
