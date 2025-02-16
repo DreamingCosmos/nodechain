@@ -23,7 +23,6 @@
     }
   },
   "postCreateCommand": [
-    "npx jacob-setup create",
-    "yarn install --frozen-lockfile --ignore-engines"
+    "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && . ~/.nvm/nvm.sh && nvm install 16 && nvm use 16 && npx jacob-setup create && nvm use 14 && yarn install --frozen-lockfile --ignore-engines"
   ]
 }

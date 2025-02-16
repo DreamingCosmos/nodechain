@@ -1,0 +1,16 @@
+{
+  "language": "JavaScript",
+  "installCommand": "yarn install --frozen-lockfile --ignore-engines",
+  "formatCommand": "",
+  "buildCommand": "react-scripts build",
+  "style": "Tailwind",
+  "iconSet": "Material UI",
+  "directories": {
+    "components": "/src/components",
+    "pages": "/src/pages",
+    "styles": "/www/src/css",
+    "tailwindConfig": "/www/tailwind.config.js",
+    "staticAssets": "/public"
+  },
+  "env": "SKIP_PREFLIGHT_CHECK=true"
+}
