@@ -1,0 +1,32 @@
+{
+  "name": "webscript",
+  "version": "0.2.1",
+  "description": "HTML replacement.  Better Javascript syntax for creating web applications.",
+  "type": "module",
+  "main": "dist/webscript.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "microbundle src/*.js"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudgen/webscript.git"
+  },
+  "keywords": [
+    "javascript",
+    "webdev",
+    "html",
+    "dom"
+  ],
+  "author": "Nick Mudge <nick@perfectabstractions.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudgen/webscript/issues"
+  },
+  "homepage": "https://github.com/mudgen/webscript#readme"
+}
